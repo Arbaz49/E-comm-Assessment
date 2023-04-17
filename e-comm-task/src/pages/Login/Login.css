@@ -1,0 +1,45 @@
+
+.loginContainer{
+    display: flex;
+    margin: auto;
+width: 100%;
+justify-content: space-around;
+
+}
+
+.loginForm{
+    margin-top: 100px;
+    width: 480px;
+    height: 98vh;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+  
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.form > input{
+    height: 50px;
+}
+.form > a{
+margin-left: 250px;
+}
+.form >  button {
+    height: 50px;
+}
+.form > label{
+    height: 24px;
+}
+.width-full{
+    width: 100%;
+}
+.image{
+    width: 400px;
+    /* height: 100vh; */
+    margin-top: 100px;
+
+}

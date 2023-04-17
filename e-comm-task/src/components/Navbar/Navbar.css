@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Montserrat:wght@300;400;800&family=Roboto:wght@300;500&display=swap');
+
+
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.name{
+width: 124px;
+height: 44px;
+margin-left: 46px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* heading */
+
+color: #1D1D1D;
+
+border-radius: 3px;
+}
+
+.menu ul{
+display: flex;
+gap: 12px;
+}
+li{
+    list-style: none;
+    font-size: 18px;
+height: 16px;
+
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+}
+
+.orderHistory{
+    padding: 4px 2px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #2B2B2B;
+background-color: white;
+border-radius: 2px;
+border: none;
+}
+
+.tools{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+
+}
+.signOut{
+    padding: 4px 6px;
+    border: 1px solid #227BFE;
+    color: #227BFE;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-right: 30px;
+}

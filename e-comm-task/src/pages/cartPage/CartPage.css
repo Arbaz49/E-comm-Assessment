@@ -1,0 +1,38 @@
+.order{
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+.order p{
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.table{
+width: 70%;
+margin: auto;
+}
+
+.quantity{
+    border: 1px solid grey;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.quantity > button{
+border: none;
+background-color: transparent;
+}
+table > tr {
+    height: 100px;
+}

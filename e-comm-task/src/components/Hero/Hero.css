@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Montserrat:wght@300;400;800&family=Roboto:wght@300;500&family=Spirax&display=swap');
+.hero{
+    height: 650px;
+    background-image: url("../../assets/Hero.jpg");
+background-repeat: no-repeat;
+background-size: full;
+background-size:100% 100%;
+
+}
+.slogan{
+    font-size: 90px;
+    width: 450px;
+    color: 
+    #104794;
+    line-height: 97px;
+    text-transform: uppercase;
+    margin-left:150px;
+    padding-top: 90px;
+    font-family: 'Spirax';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shopnow{
+    color:#104794;
+    font-size: 21px;
+    line-height: 22px;
+    padding: 12px 10px;
+    margin-left:150px;
+margin-top: 50px;
+}

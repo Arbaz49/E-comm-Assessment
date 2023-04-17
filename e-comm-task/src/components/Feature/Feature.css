@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Baloo+2&family=Montserrat:wght@300;400;800&family=Roboto:wght@300;500&family=Spirax&display=swap');
+.feature{
+    width: 100%;
+    margin-top: 50px;
+}
+.boxes{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0px 10%;
+    gap: 20px;
+}
+.boxes .box{
+    display: flex;
+    width: 300px;
+    height: 160px;
+
+}
+.Offers{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+.leftBox{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 20px;
+}
+.rightBox{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.box h4{
+    font-family: 'Baloo';
+font-style: normal;
+font-weight:bold;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* heading */
+
+color: #1D1D1D;
+
+}

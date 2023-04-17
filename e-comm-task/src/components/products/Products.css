@@ -1,0 +1,26 @@
+.productContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.product-price{
+    font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-decoration: none;
+/* Primary */
+margin: auto;
+color: #024E82;
+}
+.shopbtn{
+    text-decoration: none;
+    padding: 10px;
+}
+.products{
+    margin-top: 50px;
+
+}
